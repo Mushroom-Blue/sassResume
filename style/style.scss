@@ -41,3 +41,57 @@ $resumebackground: #FCF9ED;
     padding-top: 30px;
     padding-left: 75px;
 }
+
+.headerTitle {
+    font-family: $myfont1;
+    color: white;
+    font-size: 40px;
+    padding-top: 30px;
+    padding-left: 75px;
+}
+
+
+
+.bodyContainer {
+    display: flex;
+}
+
+.contactTitle {
+    font-family: $myfont1;
+    font-size: 30px;
+    padding-left: 75px;
+    text-decoration: underline;
+}
+
+.addressHeader {
+    font-family: $myfont2;
+    font-weight: bold;
+    padding-left: 75px;
+}
+
+.addressContent {
+    font-family: $myfont2;
+    padding-left: 75px;
+}
+
+.phoneHeader {
+    font-family: $myfont2;
+    font-weight: bold;
+    padding-left: 75px;
+}
+
+.phoneContent {
+    font-family: $myfont2;
+    padding-left: 75px;
+}
+
+.emailHeader {
+    font-family: $myfont2;
+    font-weight: bold;
+    padding-left: 75px;
+}
+
+.emailContent {
+    font-family: $myfont2;
+    padding-left: 75px;
+}

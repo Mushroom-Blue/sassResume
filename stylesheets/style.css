@@ -31,4 +31,56 @@ html, body {
   padding-left: 75px;
 }
 
+.headerTitle {
+  font-family: "Yaldevi", sans-serif;
+  color: white;
+  font-size: 40px;
+  padding-top: 30px;
+  padding-left: 75px;
+}
+
+.bodyContainer {
+  display: flex;
+}
+
+.contactTitle {
+  font-family: "Yaldevi", sans-serif;
+  font-size: 30px;
+  padding-left: 75px;
+  text-decoration: underline;
+}
+
+.addressHeader {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  padding-left: 75px;
+}
+
+.addressContent {
+  font-family: "Open Sans", sans-serif;
+  padding-left: 75px;
+}
+
+.phoneHeader {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  padding-left: 75px;
+}
+
+.phoneContent {
+  font-family: "Open Sans", sans-serif;
+  padding-left: 75px;
+}
+
+.emailHeader {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  padding-left: 75px;
+}
+
+.emailContent {
+  font-family: "Open Sans", sans-serif;
+  padding-left: 75px;
+}
+
 /*# sourceMappingURL=style.css.map */
