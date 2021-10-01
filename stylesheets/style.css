@@ -60,13 +60,13 @@ body {
   text-decoration: underline;
 }
 
-.addressHeader, .experienceTwoHeader, .experienceOneHeader, .educationHeader, .referenceOneHeader, .javascriptHeader, .bootstrapHeader, .scssHeader, .cssHeader, .htmlHeader, .websiteHeader, .emailHeader, .phoneHeader {
+.addressHeader, .experienceThreeHeader, .experienceTwoHeader, .experienceOneHeader, .educationHeader, .referenceTwoHeader, .referenceOneHeader, .javascriptHeader, .bootstrapHeader, .scssHeader, .cssHeader, .htmlHeader, .websiteHeader, .emailHeader, .phoneHeader {
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
   padding-left: 75px;
 }
 
-.addressContent, .experienceTwoBody, .experienceTwoContent, .experienceOneBody, .experienceOneContent, .educationContent, .twitterLink, .linkedinLink, .profileContent, .referenceOneNumber, .javascriptContent, .bootstrapContent, .scssContent, .cssContent, .htmlContent, .websiteContent, .emailContent, .phoneContent {
+.addressContent, .experienceThreeBody, .experienceThreeContent, .experienceTwoBody, .experienceTwoContent, .experienceOneBody, .experienceOneContent, .educationContent, .twitterLink, .linkedinLink, .profileContent, .referenceTwoNumber, .referenceOneNumber, .javascriptContent, .bootstrapContent, .scssContent, .cssContent, .htmlContent, .websiteContent, .emailContent, .phoneContent {
   font-family: "Open Sans", sans-serif;
   padding-left: 75px;
 }
@@ -155,6 +155,10 @@ body {
 }
 
 .experienceTwoHeader {
+  font-size: 20px;
+}
+
+.experienceThreeHeader {
   font-size: 20px;
 }
 

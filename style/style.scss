@@ -169,7 +169,15 @@ body {
 }
 
 .referenceOneNumber {
-    @extend .addressContent
+    @extend .addressContent;
+}
+
+.referenceTwoHeader {
+    @extend .addressHeader;
+}
+
+.referenceTwoNumber {
+    @extend .addressContent;
 }
 
 // Body Right
@@ -267,5 +275,18 @@ body {
 }
 
 .experienceTwoBody {
+    @extend .addressContent;
+}
+
+.experienceThreeHeader {
+    @extend .addressHeader;
+    font-size: 20px;
+}
+
+.experienceThreeContent {
+    @extend .addressContent;
+}
+
+.experienceThreeBody {
     @extend .addressContent;
 }
