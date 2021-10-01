@@ -27,20 +27,25 @@ html, body {
   font-family: "Yaldevi", sans-serif;
   color: white;
   font-size: 48px;
-  padding-top: 30px;
+  padding-top: 10px;
   padding-left: 75px;
 }
 
 .headerTitle {
   font-family: "Yaldevi", sans-serif;
   color: white;
-  font-size: 40px;
-  padding-top: 30px;
+  font-size: 30px;
+  padding-top: 10px;
   padding-left: 75px;
 }
 
 .bodyContainer {
   display: flex;
+}
+
+.bodyLeft {
+  border-right: 3px solid black;
+  padding-right: 40px;
 }
 
 .contactTitle {
@@ -50,37 +55,69 @@ html, body {
   text-decoration: underline;
 }
 
-.addressHeader {
+.addressHeader, .javascriptHeader, .bootstrapHeader, .scssHeader, .cssHeader, .htmlHeader, .websiteHeader, .emailHeader, .phoneHeader {
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
   padding-left: 75px;
 }
 
-.addressContent {
+.addressContent, .twitterLink, .linkedinLink, .profileContent, .javascriptContent, .bootstrapContent, .scssContent, .cssContent, .htmlContent, .websiteContent, .emailContent, .phoneContent {
   font-family: "Open Sans", sans-serif;
   padding-left: 75px;
 }
 
-.phoneHeader {
-  font-family: "Open Sans", sans-serif;
-  font-weight: bold;
+.skillsTitle {
+  font-family: "Yaldevi", sans-serif;
+  font-size: 30px;
   padding-left: 75px;
+  text-decoration: underline;
 }
 
-.phoneContent {
-  font-family: "Open Sans", sans-serif;
-  padding-left: 75px;
+.bodyRight {
+  margin-right: 150px;
 }
 
-.emailHeader {
-  font-family: "Open Sans", sans-serif;
-  font-weight: bold;
+.profileTitle {
+  font-family: "Yaldevi", sans-serif;
+  font-size: 30px;
   padding-left: 75px;
+  text-decoration: underline;
 }
 
-.emailContent {
-  font-family: "Open Sans", sans-serif;
+.profileContent {
+  border-bottom: 3px solid black;
+}
+
+.socialTitle {
+  font-family: "Yaldevi", sans-serif;
+  font-size: 30px;
   padding-left: 75px;
+  text-decoration: underline;
+}
+
+.linkedinLink {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.linkedinLink:visited {
+  color: blue;
+}
+
+.twitterLink {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.twitterLink:visited {
+  color: blue;
+}
+
+.educationTitle {
+  font-family: "Yaldevi", sans-serif;
+  font-size: 30px;
+  padding-left: 75px;
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=style.css.map */

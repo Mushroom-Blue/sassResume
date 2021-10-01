@@ -38,22 +38,28 @@ $resumebackground: #FCF9ED;
     font-family: $myfont1;
     color: white;
     font-size: 48px;
-    padding-top: 30px;
+    padding-top: 10px;
     padding-left: 75px;
 }
 
 .headerTitle {
     font-family: $myfont1;
     color: white;
-    font-size: 40px;
-    padding-top: 30px;
+    font-size: 30px;
+    padding-top: 10px;
     padding-left: 75px;
 }
 
 
+// Body Left 
 
 .bodyContainer {
     display: flex;
+}
+
+.bodyLeft {
+    border-right: 3px solid black;
+    padding-right: 40px;
 }
 
 .contactTitle {
@@ -75,23 +81,123 @@ $resumebackground: #FCF9ED;
 }
 
 .phoneHeader {
-    font-family: $myfont2;
-    font-weight: bold;
-    padding-left: 75px;
+    @extend .addressHeader;
 }
 
 .phoneContent {
-    font-family: $myfont2;
-    padding-left: 75px;
+    @extend .addressContent;
 }
 
 .emailHeader {
-    font-family: $myfont2;
-    font-weight: bold;
-    padding-left: 75px;
+    @extend .addressHeader;
 }
 
 .emailContent {
-    font-family: $myfont2;
+    @extend .addressContent;
+}
+
+.websiteHeader {
+    @extend .addressHeader;
+}
+
+.websiteContent {
+    @extend .addressContent;
+}
+
+.skillsTitle {
+    font-family: $myfont1;
+    font-size: 30px;
     padding-left: 75px;
+    text-decoration: underline;
+}
+
+.htmlHeader {
+    @extend .addressHeader;
+}
+
+.htmlContent {
+    @extend .addressContent;
+}
+
+.cssHeader {
+    @extend .addressHeader;
+}
+
+.cssContent {
+    @extend .addressContent;
+}
+
+.scssHeader {
+    @extend .addressHeader;
+}
+
+.scssContent {
+    @extend .addressContent;
+}
+
+.bootstrapHeader {
+    @extend .addressHeader;
+}
+
+.bootstrapContent {
+    @extend .addressContent;
+}
+
+.javascriptHeader {
+    @extend .addressHeader;
+}
+
+.javascriptContent {
+    @extend .addressContent;
+}
+
+// Body Right
+
+.bodyRight {
+    margin-right: 150px;
+}
+
+.profileTitle {
+    font-family: $myfont1;
+    font-size: 30px;
+    padding-left: 75px;
+    text-decoration: underline;
+}
+.profileContent {
+    @extend .addressContent;
+    border-bottom: 3px solid black;
+}
+
+.socialTitle {
+    font-family: $myfont1;
+    font-size: 30px;
+    padding-left: 75px;
+    text-decoration: underline;
+}
+
+.linkedinLink{
+    @extend .addressContent;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.linkedinLink:visited {
+    color: blue;
+}
+
+.twitterLink {
+    @extend .addressContent;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.twitterLink:visited {
+    color: blue;
+}
+
+.educationTitle {
+    font-family: $myfont1;
+    font-size: 30px;
+    padding-left: 75px;
+    text-decoration: underline;
 }
