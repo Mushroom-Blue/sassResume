@@ -13,6 +13,9 @@ $textfont: #080C08;
 $background: #41BBD9;
 $resumebackground: #FCF9ED;
 
+body {
+    overflow-x: hidden;
+}
 
 .pageContainer {
     display: flex;
@@ -66,6 +69,7 @@ $resumebackground: #FCF9ED;
     font-family: $myfont1;
     font-size: 30px;
     padding-left: 75px;
+    padding-top: 15px;
     text-decoration: underline;
 }
 
@@ -108,6 +112,7 @@ $resumebackground: #FCF9ED;
     font-family: $myfont1;
     font-size: 30px;
     padding-left: 75px;
+    padding-top: 15px;
     text-decoration: underline;
 }
 
@@ -151,6 +156,22 @@ $resumebackground: #FCF9ED;
     @extend .addressContent;
 }
 
+.referenceTitle {
+    font-family: $myfont1;
+    font-size: 30px;
+    padding-left: 75px;
+    padding-top: 15px;
+    text-decoration: underline;
+}
+
+.referenceOneHeader {
+    @extend .addressHeader;
+}
+
+.referenceOneNumber {
+    @extend .addressContent
+}
+
 // Body Right
 
 .bodyRight {
@@ -161,10 +182,12 @@ $resumebackground: #FCF9ED;
     font-family: $myfont1;
     font-size: 30px;
     padding-left: 75px;
+    padding-top: 15px;
     text-decoration: underline;
 }
 .profileContent {
     @extend .addressContent;
+    padding-bottom: 10px;
     border-bottom: 3px solid black;
 }
 
@@ -172,6 +195,7 @@ $resumebackground: #FCF9ED;
     font-family: $myfont1;
     font-size: 30px;
     padding-left: 75px;
+    padding-top: 15px;
     text-decoration: underline;
 }
 
@@ -199,5 +223,49 @@ $resumebackground: #FCF9ED;
     font-family: $myfont1;
     font-size: 30px;
     padding-left: 75px;
+    padding-top: 15px;
     text-decoration: underline;
+}
+
+.educationHeader {
+    @extend .addressHeader;
+    font-size: 20px;
+}
+
+.educationContent {
+    @extend .addressContent
+}
+
+.experienceTitle {
+    font-family: $myfont1;
+    font-size: 30px;
+    padding-left: 75px;
+    padding-top: 15px;
+    text-decoration: underline;
+}
+
+.experienceOneHeader {
+    @extend .addressHeader;
+    font-size: 20px;
+}
+
+.experienceOneContent {
+    @extend .addressContent;
+}
+
+.experienceOneBody {
+    @extend .addressContent;
+}
+
+.experienceTwoHeader {
+    @extend .addressHeader;
+    font-size: 20px;
+}
+
+.experienceTwoContent {
+    @extend .addressContent;
+}
+
+.experienceTwoBody {
+    @extend .addressContent;
 }

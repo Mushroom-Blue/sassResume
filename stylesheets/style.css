@@ -3,6 +3,10 @@ html, body {
   padding: 0;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .pageContainer {
   display: flex;
   height: 100%;
@@ -52,16 +56,17 @@ html, body {
   font-family: "Yaldevi", sans-serif;
   font-size: 30px;
   padding-left: 75px;
+  padding-top: 15px;
   text-decoration: underline;
 }
 
-.addressHeader, .javascriptHeader, .bootstrapHeader, .scssHeader, .cssHeader, .htmlHeader, .websiteHeader, .emailHeader, .phoneHeader {
+.addressHeader, .experienceTwoHeader, .experienceOneHeader, .educationHeader, .referenceOneHeader, .javascriptHeader, .bootstrapHeader, .scssHeader, .cssHeader, .htmlHeader, .websiteHeader, .emailHeader, .phoneHeader {
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
   padding-left: 75px;
 }
 
-.addressContent, .twitterLink, .linkedinLink, .profileContent, .javascriptContent, .bootstrapContent, .scssContent, .cssContent, .htmlContent, .websiteContent, .emailContent, .phoneContent {
+.addressContent, .experienceTwoBody, .experienceTwoContent, .experienceOneBody, .experienceOneContent, .educationContent, .twitterLink, .linkedinLink, .profileContent, .referenceOneNumber, .javascriptContent, .bootstrapContent, .scssContent, .cssContent, .htmlContent, .websiteContent, .emailContent, .phoneContent {
   font-family: "Open Sans", sans-serif;
   padding-left: 75px;
 }
@@ -70,6 +75,15 @@ html, body {
   font-family: "Yaldevi", sans-serif;
   font-size: 30px;
   padding-left: 75px;
+  padding-top: 15px;
+  text-decoration: underline;
+}
+
+.referenceTitle {
+  font-family: "Yaldevi", sans-serif;
+  font-size: 30px;
+  padding-left: 75px;
+  padding-top: 15px;
   text-decoration: underline;
 }
 
@@ -81,10 +95,12 @@ html, body {
   font-family: "Yaldevi", sans-serif;
   font-size: 30px;
   padding-left: 75px;
+  padding-top: 15px;
   text-decoration: underline;
 }
 
 .profileContent {
+  padding-bottom: 10px;
   border-bottom: 3px solid black;
 }
 
@@ -92,6 +108,7 @@ html, body {
   font-family: "Yaldevi", sans-serif;
   font-size: 30px;
   padding-left: 75px;
+  padding-top: 15px;
   text-decoration: underline;
 }
 
@@ -117,7 +134,28 @@ html, body {
   font-family: "Yaldevi", sans-serif;
   font-size: 30px;
   padding-left: 75px;
+  padding-top: 15px;
   text-decoration: underline;
+}
+
+.educationHeader {
+  font-size: 20px;
+}
+
+.experienceTitle {
+  font-family: "Yaldevi", sans-serif;
+  font-size: 30px;
+  padding-left: 75px;
+  padding-top: 15px;
+  text-decoration: underline;
+}
+
+.experienceOneHeader {
+  font-size: 20px;
+}
+
+.experienceTwoHeader {
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
