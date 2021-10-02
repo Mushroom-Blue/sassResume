@@ -1,7 +1,8 @@
 @import "default";
 
 @mixin paragraphFormats {
-    
+    margin-bottom: 30px;
+    justify-content: center;
 }
 
 
@@ -242,6 +243,10 @@ body {
 
 .educationContent {
     @extend .addressContent
+}
+
+.workHistoryContainer {
+    @include paragraphFormats();
 }
 
 .experienceTitle {

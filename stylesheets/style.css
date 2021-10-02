@@ -142,6 +142,11 @@ body {
   font-size: 20px;
 }
 
+.workHistoryContainer {
+  margin-bottom: 30px;
+  justify-content: center;
+}
+
 .experienceTitle {
   font-family: "Yaldevi", sans-serif;
   font-size: 30px;
